@@ -1,0 +1,39 @@
+.img-circle {
+    webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+}
+.clip {
+    margin: 5px !important;
+    width: 150px;
+    height: 150px;
+    background-color: #f7b733;
+    border: 5px solid #EDE574;
+    color: white;
+    float: left;
+    text-align: center;
+
+}
+.clip i {
+    display: block;
+    padding-top: 25px;
+    font-size: 0.5em;
+}
+.clip img {
+    padding-top: 25px;
+    display: block;
+    margin:0 auto;
+}
+
+.new{
+	background-color: #f7b733;
+	border: 20px solid #EDE574;
+}
+
+.span-img-circle{
+    margin-top: 55px !important;
+    font-size: 15px !important;
+    color: white;
+    display: block;
+    text-align: center;
+}
