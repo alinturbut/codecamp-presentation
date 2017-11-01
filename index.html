@@ -156,12 +156,93 @@
 							    </bean>
 							</beans>
 						</code></pre>
-
+					</section>
+					<section>
+						<h3>Getters-Setters Hell</h3>
+						<pre><code class="hljs java" style="font-size:10px;" data-trim contenteditable>
+							public class Human {
+								private Arm leftArm;
+								private Arm rightArm;
+								private Leg leftLeg;
+								private Leg rightLeg;
+								private Head head;
+								private Body body;
+								private Hair hair;
+								public Arm getLeftArm() {
+					        return leftArm;
+						    }
+						    public void setLeftArm(Arm leftArm) {
+					        this.leftArm = leftArm;
+						    }
+						    public Arm getRightArm() {
+					        return rightArm;
+						    }
+						    public void setRightArm(Arm rightArm) {
+					        this.rightArm = rightArm;
+						    }
+						    public Leg getLeftLeg() {
+					        return leftLeg;
+						    }
+						    public void setLeftLeg(Leg leftLeg) {
+					        this.leftLeg = leftLeg;
+						    }
+						    public Leg getRightLeg() {
+					        return rightLeg;
+						    }
+						    public void setRightLeg(Leg rightLeg) {
+					        this.rightLeg = rightLeg;
+						    }
+						    public Head getHead() {
+					        return head;
+						    }
+						    public void setHead(Head head) {
+					        this.head = head;
+						    }
+						    public Body getBody() {
+					        return body;
+						    }
+						    public void setBody(Body body) {
+					        this.body = body;
+						    }
+						    public Hair getHair() {
+					        return hair;
+						    }
+						    public void setHair(Hair hair) {
+					        this.hair = hair;
+						    }
+							}
+						</code></pre>
+					</section>
+					<section>
+						<h3>Old Java architecture:</h3>
+						<ul>
+							<li>
+								<span>Enterprise Java Beans</span>
+							</li>
+							<li>
+								<span>Java EE</span>
+							</li>
+							<li>
+								<span>Java 4,5</span>
+							</li>
+							<li>
+								<span>Swing or JavaFX</span>
+							</li>
+							<li>
+								<span>Servlets</span>
+							</li>
+						</ul>
+						<p style="font-size:15px; margin-top:150px; margin-left: 300px;">Disclaimer: These are all purely subjective.</p>
 					</section>
 				</section>
 
-				<section data-markdown id="jhipster_introduction">
-					## Hello, JHipster
+				<section id="jhipster_introduction">
+					<section data-markdown >
+						### You want to see a cool way of writing a web project in Java?
+					</section>
+					<section data-markdown >
+						## Hello, JHipster
+					</section>
 				</section>
 
 				<!-- =============== END =============== -->
@@ -183,7 +264,7 @@
 				parallaxBackgroundImage: 'https://lh5.googleusercontent.com/l-kOb6OURMzqoAUAX8E_Xtxes9-cUPXyxz9ZGZ0hK691-uMw_uZ59PhJBpSjFQUqyW1OOxN1otKAKAE=w1920-h983-rw',
 				parallaxBackgroundSize: '2100px 1024px',
 				parallaxBackgroundHorizontal: 50,
-				parallaxBackgroundVertical: 20,
+				parallaxBackgroundVertical: 10,
 
 				keyboard: {
 					55: function() { Reveal.configure({ parallaxBackgroundImage: 'https://lh5.googleusercontent.com/l-kOb6OURMzqoAUAX8E_Xtxes9-cUPXyxz9ZGZ0hK691-uMw_uZ59PhJBpSjFQUqyW1OOxN1otKAKAE=w1920-h983-rw', }); },
