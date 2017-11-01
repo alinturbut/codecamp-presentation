@@ -37,3 +37,15 @@
     display: block;
     text-align: center;
 }
+
+.compass {
+    width: 65px;
+    height: 65px;
+    margin-left: 42px !important;
+}
+
+.reveal section img {
+   background:none;
+   border:none;
+   box-shadow:none;
+ }
